@@ -42,7 +42,7 @@ function switchMode(mode) {
         xLabel.innerText = 'Nether X';
         zLabel.innerText = 'Nether Z';
         outputLabel.innerText = 'Overworld Coordinates:';
-        slider.style.transform = 'translateX(calc(100% + 4px))';
+        slider.style.transform = 'translateX(calc(100% + 2px))';
     }
 
     calculateCoordinates();
